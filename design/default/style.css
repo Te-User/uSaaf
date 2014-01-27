@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
+body
+{
+	margin: 0;
+	background:  url('images/bg.jpg') no-repeat top center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size :cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#page_bg
+{
+	z-index: 1;
+	background:  url('images/bg_2.png');
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+#page
+{
+	z-index: 2;
+	left: 50%;
+	position:relative;
+	margin-left: -400px;
+	width: 820px;
+	
+	margin-bottom: 20px;
+}
+header
+{
+	position: relative;
+	z-index: 3;
+	height: 100px;
+	padding: 10px 20px;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 3px;
+	margin-bottom: 10px;
+}
+header h2
+{
+	float:left;
+	margin-left: 10px;
+	font-family: 'Hammersmith One', sans-serif;
+	color: white;
+	font-size: 4em;
+	line-height: 1px;
+	text-shadow: #1D1D1D 1px 1px 1px;
+}
+header a
+{
+	box-shadow: orange 5px 0px 0px inset, orange 0px 0px 2px;
+	font-size: 12px;
+	font-family: 'Nunito', sans-serif;
+	border-radius: 5px;
+	margin: 5px;
+	float: right;
+	text-decoration: none;
+	background-color: rgba(0,0,0, 0.25);
+	color: white;
+	padding: 8px 12px;
+	text-shadow: #1D1D1D 1px 1px 1px;
+}
+header a:hover
+{
+	background-color: rgba(0,0,0, 0);
+	box-shadow: #e45c20 5px 0px 0px inset, #e45c20 0px 0px 5px;
+	text-decoration: underline;
+}
+#menu 
+{
+	position:relative;
+	margin: 10px 0px;
+	width: 10%;
+	min-width: 150px;
+	display: inline-block;
+	float: left;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px 20px 10px 10px;
+}
+#menu .title
+{
+	text-shadow: #1D1D1D 1px 1px 1px;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;
+	padding: 9px 12px;
+	display: block;
+	border-radius: 10px 10px 5px 10px;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: orange -8px 0px 0px inset;
+}
+#menu .title:hover
+{
+	text-decoration: underline;
+	box-shadow: #e45c20 -10px 0px 0px inset;
+}
+#menu .title a
+{
+	color: orange;
+	text-decoration: none;
+}
+#menu .title a:hover
+{
+	text-decoration: underline;
+}
+#menu nav 
+{
+	margin: -5px;
+}
+#menu nav ul
+{
+	list-style-type: none;
+	margin-left: -20px;
+	line-height: 20px;
+}
+#menu nav a 
+{
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+}
+#menu nav a:hover
+{
+	text-decoration: underline;
+	text-shadow: #7a3314 1px 1px 1px;
+	margin-left: 3px;
+}
+
+section
+{
+	margin-top: -20px;
+	width: 670px;
+	display: inline-block;
+}
+ #page_content
+{
+	border-radius: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+	width: 660px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.8);
+}
+section #page_content  .title_content .author 
+{
+	font-style: italic;
+	font-size: 10px;
+}
+section #page_content .title_content
+{
+	box-shadow: orange -8px 0px 0px inset;
+	text-shadow: #1D1D1D 1px 1px 1px;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;
+	padding: 8px;
+	display: block;
+	border-radius: 5px;
+	background-color: rgba(255,255,255, 0.1);
+}
+
+section #page_content .title_content:hover
+{
+	text-decoration: underline;
+	box-shadow: #e45c20 -10px 0px 0px inset;
+}
+section #page_content .content
+{
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255, 0.1);
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 13px;
+}
+section #page_content .content a 
+{
+	color: #e68458;
+}
+section #page_content .content a:hover
+{
+	color: #f1c049;
+	text-shadow: black 1px 1px 1px;
+}
+.spacer
+{
+	clear:both;
+	height: 10px;
+
+}
+footer 
+{
+	position:relative;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px 55px 5px 50px;
+	padding: 25px 50px;
+	clear:both;
+	width: 700px;
+	left: 50%;
+	position:relative;
+	margin-left: -350px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	font-family: 'Nunito', sans-serif;
+	text-shadow: #1D1D1D 1px 1px 1px;
+}
